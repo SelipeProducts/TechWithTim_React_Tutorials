@@ -2,9 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
+//TechW/Tim didnt include this. //Replit auto created
+import * as serviceWorker from './serviceWorker';
+//What tim imported   //error
+//import reportWebVitals from './reportWebVitals';
+
+//Defualt Renderer
 ReactDOM.render(<App />, document.getElementById('root'));
+
+//Tim's Renderer has strict mode// giving error
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App />
+//   <React.StrictMode>,
+//   document.getElementById('root'));
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
