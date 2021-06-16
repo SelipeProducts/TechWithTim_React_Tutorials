@@ -5,8 +5,7 @@ import App from './App';
 
 //TechW/Tim didnt include this. //Replit auto created
 import * as serviceWorker from './serviceWorker';
-//What tim imported   //error
-//import reportWebVitals from './reportWebVitals';
+
 
 //Defualt Renderer
 ReactDOM.render(<App />, document.getElementById('root'));
@@ -15,7 +14,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // ReactDOM.render(
 //   <React.StrictMode>
 //     <App />
-//   <React.StrictMode>,
+//   </React.StrictMode>,
 //   document.getElementById('root'));
 
 
